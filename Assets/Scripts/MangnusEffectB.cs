@@ -11,11 +11,11 @@ public class MangnusEffectB : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             Kick();
+            ApplyMagnusEffect();
         } 
-        ApplyMagnusEffect();
     }
     
     void Kick()
